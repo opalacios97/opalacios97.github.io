@@ -65,7 +65,7 @@ a{
     text-decoration: none;
 }
 
-#nav ul{
+nav ul{
     list-style-type: none;
 }
 
@@ -101,4 +101,20 @@ a{
 }
 #cinco{
     grid-area: area5;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer address{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
 }
