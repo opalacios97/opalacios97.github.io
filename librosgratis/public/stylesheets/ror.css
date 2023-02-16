@@ -7,6 +7,95 @@
 /* El elemento body sin margen y sin relleno */
 
 body {
-    margin: 0;
-    padding: 0;
+    display: grid;
+    grid-template-areas: "area1 area1 area1 area1 area3"
+                         "area2 area2 area2 area2 area3";
+    margin-left: 8.5%;
+    margin-right: 8.5%;
+    padding: 5%;
+}
+
+#rorcont1{
+    grid-area: area1;
+    margin: 0%;
+
+}
+
+#rorcont2{
+    grid-area: area2;
+
+
+}
+
+#rorcont3{
+    grid-area: area3;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 5%;
+
+    
+}
+
+#rorcontenh{
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    padding: 0%;
+}
+
+.headersection{
+    padding: 2%;
+}
+
+#negritasheader{
+    font-weight: bold;
+}
+
+#textoheader{
+    text-align: justify;
+    font-size: medium;
+}
+
+#rorimgheader{
+    box-shadow: 0 5px 5px rgba(24, 23, 23, 0.24) ;
+    margin: 1px;
+    border: 6px solid white;
+}
+
+#rorimgaside{
+    box-shadow: 0 1px 1px rgba(24, 23, 23, 0.24) ;
+    border: 6px solid white;
+    padding: 0%;
+    margin-top: 40%;
+    margin-left: 30%;
+}
+
+#rorhcont1{
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+
+h1{
+    font-size: xx-large;
+}
+
+#rorhcont2{
+    margin-right: 20%;
+}
+
+
+
+#contaside{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.v-line{
+    border-left: thick solid #8a1313;
+    height:100%;
+    left: 80%;
+    width: 10%;
+    position: absolute;
 }
