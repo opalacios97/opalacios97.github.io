@@ -1,0 +1,133 @@
+/* Todos los elementos HTML usarán la fuente "Open Sans", sans-serif */
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* El elemento body sin margen y sin relleno */
+
+body {
+    margin: 15%;
+    padding: 0;
+}
+
+/* El elemento header tendrá una imagen de fondo */
+
+header {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+
+
+#grancontenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont1{
+    display: grid;
+    grid-template-areas: "area3 area3 area3 area4 area4 area4";
+
+}
+
+
+.cont2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+   
+}
+
+.cont3{
+    display: grid;
+    grid-template-areas: "area1 area1 area1 area1 area1 area1"
+                         "area2 area2 area2 area2 area2 area2";
+}
+
+.conth1{
+    grid-area: area3;
+    column-gap: 0px;
+    text-align: justify;
+    word-spacing: 0.25px;
+    margin-top: 50%;
+    padding: 3%;
+}
+
+.conth2{
+    grid-area: area4;
+    column-gap: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 85%;
+    padding: 3%;
+}
+
+
+
+.contf1{
+    grid-area: area1;
+    margin-left: 5%;
+    font-weight: lighter;
+}
+
+.contf2{
+    grid-area: area2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+
+}
+
+#imgh{
+    box-shadow: 0 5px 5px rgba(24, 23, 23, 0.24) ;
+    margin: 1px;
+    border: 6px solid white;
+}
+
+#imgf{
+    box-shadow: 0 5px 5px rgba(24, 23, 23, 0.24) ;
+    padding: 0.5%;
+
+
+}
+
+#descripcion{
+    font-size: small;
+}
+
+#headernegritas{
+    font-size: small;
+    font-weight: bold;
+}
+
+#textoheader{
+    text-align: justify;
+    word-spacing: 0.25px;
+
+    line-height: 1;
+}
+
+h1{
+    font-size: xx-large;
+}
+
+h2{
+    font-weight: 10;
+}
+
