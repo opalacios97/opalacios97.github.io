@@ -1,3 +1,67 @@
 body{
     background-color: rgb(32, 233, 233);
 }
+
+#colorsecundario{
+    background-color: rgb(231, 241, 241);
+}
+
+#titulotabla{
+   padding: 0%; 
+   
+
+
+}
+
+
+#tablastatus{
+    padding: 0%;
+
+
+}
+
+#tablaestilo{
+
+}
+
+table{
+    width: 70%;
+    margin-left: 25%;
+    margin-top: 4%;
+    border: 1px solid #000;
+    background: #000 url("gradient.gif") bottom left repeat-x;
+    color: #fff;
+}
+
+th,td{
+    width: 25%;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #000;
+    border-spacing: 0;
+    padding: 0.3em;
+    background: #fff;
+    color: #000;
+}
+
+caption{
+    padding: 0.3em;
+}
+
+#rt-footer{
+    background-color: rgb(26, 130, 179);
+    color: rgb(26, 130, 179);
+}
+
+#text-footer{
+    color: white;
+    text-align: center;
+}
+
+#nav-footer{
+    display: flex;
+    color: #fff;
+    flex-direction: row;
+    text-align: center;
+    text-justify: distribute;
+}

@@ -155,15 +155,15 @@
 
 <!-- Tabla 1 -->
 
-<div class="section">
+<div class="section" id="colorsecundario">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" id="titulotabla">
                 <h2>Estatus de las tolvas</h2>
                 <p class="description">Visualiza las últimas 4 tolvas en haber sido rellenadas. La información es actualizada cada minuto.</p>      
             </div>
-            <div class="col-md-6">
-                <table>
+            <div class="col-md-6" id="tablastatus">
+                <table id="tablaestilo">
                     <tr>
                         <th class="text-center">Estanque</th>
                         <th class="text-center">Tolva</th>
@@ -198,15 +198,15 @@
 
 <!-- Tabla2 -->
 
-<div class="section">
+<div class="section" id="colorsecundario">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" id="titulotabla">
                 <h2>Notificaciones recientes</h2>
                 <p class="description">Visualiza las últimas 4 alertas del sistema. La información es actualizada cada minuto.</p>
             </div>
-            <div class="col-md-6">
-                <table>
+            <div class="col-md-6" id="tablastatus">
+                <table id="tablaestilo">
                     <tr>
                         <th class="text-center">Fecha y hora</th>
                         <th class="text-center">Tipo</th>
@@ -253,9 +253,9 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="info-icon">
-                        <img  src="" alt="usuario 2" width="50">
+                <div class="col-sm-12 col-md-12">
+                    <div class="info-icon text-center">
+                        <img  src="public/logo.jpg" alt="usuario 2" width="50">
                         
                         <!-- imagen última sección -->
                     </div>
@@ -269,7 +269,7 @@
 
     <!-- Más servicios en nuestra página principal -->
 
-    <div class="section">
+    <div class="section" id="colorsecundario">
         <div class="container">
             <div class="row">
                 <div class="title-area">
@@ -290,35 +290,40 @@
     </div>
 
 
-    <footer class="footer footer-color-black" data-color="black">
+    <footer class="footer" id="rt-footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-2 col-sm-3">
-                    <div class="info">
-                        <h5 class="title">Smart Filling</h5>
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="#">Home</a></li>
-                                <li>
-                                    <a href="#">Find offers</a>
-                                </li>
-                                <li>
-                                    <a href="#">Discover Projects</a>
-                                </li>
-                                <li>
-                                    <a href="#">Our Portfolio</a>
-                                </li>
-                                <li>
-                                    <a href="#">About Us</a>
-                                </li>
-                            </ul>
-                        </nav>
+                <div class="col-sm-12 col-md-12">
+                    <nav id="nav-footer">
+                        <ul>
+                            <li>
+                                <a href="#">Estanques</a>
+                            </li>
+                            <li>
+                                <a href="#">Inventario</a>
+                            </li>
+                            <li>
+                                <a href="#">Alarmas</a>
+                            </li>
+                            <li>
+                                <a href="#">Usuarios</a>
+                            </li>
+                            <li>
+                                <a href="#">Configuración</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="info text-center">
+                        <h5 class="title" id="text-footer">Smart Filling</h5>
                     </div>
                 </div>
             </div>
             <hr>
-            <div class="copyright">
+            <div class="copyright" id="text-footer">
                  © <script> document.write(new Date().getFullYear()) </script> SFTech. All rights reserved.
             </div>
         </div>
